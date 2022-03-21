@@ -3,6 +3,7 @@ require('dotenv').config();
 const mnemonic = process.env.MNEMONIC_PHRASE;
 const infuraProjectId = process.env.INFURA_PROJECT_ID;
 const etherScanApiKey = process.env.ETHERSCAN_API_KEY;
+const coinMarketcapApiKey = process.env.COINMARKETCAP_API_KEY;
 
 module.exports = {
   networks: {
@@ -20,6 +21,11 @@ module.exports = {
   },
   mocha: {
     reporter: 'eth-gas-reporter',
+    reporterOptions: {
+      currency: 'USD',
+      coinmarketcap: coinMarketcapApiKey,
+      gasPriceApi: etherScanApiKey,
+    },
   },
   plugins: ['truffle-plugin-verify'],
   api_keys: {
@@ -28,6 +34,11 @@ module.exports = {
   compilers: {
     solc: {
       version: '0.8.12',
+      settings: {
+        optimizer: {
+          enabled: true,
+        },
+      },
     },
   },
 };

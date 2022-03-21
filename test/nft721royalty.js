@@ -21,7 +21,7 @@ contract('Testing NFT721Royalty Contract', async ([alice, bob]) => {
     expectEvent(tranReceipt, 'Transfer', { from: zeroAddress, to: alice, tokenId: tokenId });
   });
 
-  it.only('royalty function', async () => {
+  it('royalty function', async () => {
     const tokenId = '20';
     const tranReceipt = await nft721royaltyInstance.mint(alice, tokenId);
     const salePrice = web3.utils.toWei('100', 'ether');
