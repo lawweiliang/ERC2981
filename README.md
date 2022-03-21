@@ -10,6 +10,7 @@ The answer is no, whether you will receive the royalty or not is `highly depend 
 
 <img src="./doc/testing-result.png">
 
-Reference
-https://docs.openzeppelin.com/contracts/4.x/api/token/common
+### Reference
+
+https://docs.openzeppelin.com/contracts/4.x/api/token/common <br>
 https://eips.ethereum.org/EIPS/eip-2981
