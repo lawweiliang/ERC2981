@@ -1,0 +1,125 @@
+{
+  "contractName": "NFT1155Royalty",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/NFT1155Royalty.sol\":\"NFT1155Royalty\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/NFT1155Royalty.sol\":{\"keccak256\":\"0x811f14e091710f34aa2a8363bbef6714e2918c1db4effee44b4579b84cf0f724\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://04f53773ce5d75469cb229b1c5429ad8b69981135e1a9449e3237c05fbc6b627\",\"dweb:/ipfs/QmXmV6fPS3jo7cw5kwwEWdkBLyTJ5zicFmtdDQp481uS2p\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122098733dd695950c5d8c5b21ebb4f45f8f501c2695e03cbc4875ab08abb9ccda0664736f6c634300080c0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122098733dd695950c5d8c5b21ebb4f45f8f501c2695e03cbc4875ab08abb9ccda0664736f6c634300080c0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "72:33:13:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "72:33:13:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity >=0.7.0 <0.9.0;\r\n\r\n\r\ncontract NFT1155Royalty{\r\n\r\n  \r\n}\r\n\r\n",
+  "sourcePath": "D:\\Users\\yesla\\Desktop\\solidityworkspace\\nft_royalty\\contracts\\NFT1155Royalty.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/NFT1155Royalty.sol",
+    "exportedSymbols": {
+      "NFT1155Royalty": [
+        1838
+      ]
+    },
+    "id": 1839,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1837,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:31:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "NFT1155Royalty",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1838,
+        "linearizedBaseContracts": [
+          1838
+        ],
+        "name": "NFT1155Royalty",
+        "nameLocation": "81:14:13",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1839,
+        "src": "72:33:13",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:74:13"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/NFT1155Royalty.sol",
+    "exportedSymbols": {
+      "NFT1155Royalty": [
+        1838
+      ]
+    },
+    "id": 1839,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1837,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "35:31:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "NFT1155Royalty",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1838,
+        "linearizedBaseContracts": [
+          1838
+        ],
+        "name": "NFT1155Royalty",
+        "nameLocation": "81:14:13",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1839,
+        "src": "72:33:13",
+        "usedErrors": []
+      }
+    ],
+    "src": "35:74:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.12+commit.f00d7308.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-03-21T03:20:32.708Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
