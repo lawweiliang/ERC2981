@@ -12,7 +12,7 @@ contract('Testing NFT1155Royalty Contract', async ([owner, walletAlice]) => {
     assert.equal(await nft1155royaltyInstance.supportsInterface('0x2a55205a'), true);
   });
 
-  it.only('mint token', async () => {
+  it('mint token', async () => {
     const tokenId = '20';
     const tokenAmount = '100';
     const tranReceipt = await nft1155royaltyInstance.mint(walletAlice, tokenId, tokenAmount, '0x', { from: owner });
@@ -23,11 +23,11 @@ contract('Testing NFT1155Royalty Contract', async ([owner, walletAlice]) => {
   it('royalty function', async () => {
     const tokenId = '20';
     const tokenAmount = '100';
-    const tranReceipt = await nft1155royaltyInstance.mint(alice, tokenId, tokenAmount, '0x');
+    const tranReceipt = await nft1155royaltyInstance.mint(walletAlice, tokenId, tokenAmount, '0x');
     const salePrice = web3.utils.toWei('100', 'ether');
     let royaltyData = await nft1155royaltyInstance.royaltyInfo(tokenId, salePrice);
 
-    assert.equal(royaltyData[0], alice);
+    assert.equal(royaltyData[0], owner);
 
     //2% of 100 = 2
     assert.equal(web3.utils.fromWei(royaltyData[1], 'ether'), '2');
