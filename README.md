@@ -8,7 +8,7 @@ The answer is no, whether you will receive the royalty or not is `highly depend 
 
 ### Result
 
-<img src="./doc/testing-result.png" width="500" height="500">
+<img src="./doc/testing-result.png">
 
 Reference
 https://docs.openzeppelin.com/contracts/4.x/api/token/common
